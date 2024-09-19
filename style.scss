@@ -40,7 +40,21 @@ body {
 
     .menu {
         display: flex;
-        
+
+        li {
+            width: 200px;
+            height: 35px;
+            text-align: center;
+            list-style: none;
+            cursor: pointer;
+            font-size: 22px;
+            font-weight: 780;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
     }
     
     .verde {
