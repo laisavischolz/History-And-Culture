@@ -13,14 +13,6 @@ body {
   background-color: #f4f4f4;
 }
 
-.bodya {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background-color: hsl(150, 77%, 91%);
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -62,40 +54,13 @@ body {
   font-weight: bold;
 }
 .navbar .logo img {
-  width: 100px;
+  width: 130px;
 }
 .navbar .search-bar input[type=text] {
   padding: 10px;
   border: none;
   border-radius: 4px;
   font-size: 16px;
-}
-
-.content_pg_inicial {
-  padding: 80px 0px 80px;
-  display: flex;
-  justify-content: space-between;
-  height: 400px;
-  flex-direction: column;
-  align-items: end;
-}
-.content_pg_inicial .content_1 {
-  margin: left;
-  padding: right;
-  height: 180px;
-  width: 800px;
-  background-color: hsl(181, 76%, 23%);
-  text-align: center;
-  border-radius: 30px 0px 0px 30px;
-  margin-left: 50px;
-  padding: 20px;
-}
-.content_pg_inicial .content_1 h1 {
-  padding-top: 40px;
-  display: right;
-  font-size: 20px;
-  margin: left;
-  color: #fff;
 }
 
 h1 {
@@ -108,73 +73,25 @@ li {
   font-size: 20px;
 }
 
-.Titulo_pg_HI {
-  margin: 50px;
-  padding: right;
-  text-align: left;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  margin-left: 50px;
-  height: 0px;
-}
-.Titulo_pg_HI h1 {
-  font-size: 25px;
-  margin: 0;
-  color: #000000;
-  font-weight: 530;
-}
-.Titulo_pg_HI #linha_titulo {
-  width: 300px;
-  height: 5px;
-  background-color: hsl(126, 53%, 56%);
-  display: flex;
-}
-
-.all_content {
-  width: 1530px;
+.divisao {
   height: 500px;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-.all_content img {
-  width: 500px;
-  float: right;
-  display: block;
-  border-radius: 20px;
-  margin: auto;
-}
-.all_content .content_HI {
-  padding: right;
-  height: 368px;
-  width: 700px;
-  background-color: hsl(144, 39%, 69%);
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  display: inline-block;
-  padding: 20px;
-  align-items: center;
-}
-.all_content .content_HI p {
-  font-size: 24px;
-  margin-left: 50px;
-  color: black;
-  font-family: "Italiana", sans-serif;
-  font-weight: 530;
-}
-
-#logo {
-  padding-left: 1300px;
-  border: 20px;
 }
 
 .rodape {
   display: flex;
-  padding: 15px 30px;
-  background-color: hsl(181, 76%, 23%);
+  background-image: url(images/Grupo_indigenas.jpg);
   color: white;
   width: 1476px;
   justify-content: space-around;
+}
+.rodape .verde_rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1476px;
+  height: 100px;
+  background-color: #0c4e26;
+  opacity: 0.85;
 }
 .rodape .rodape_nos {
   display: flex;
