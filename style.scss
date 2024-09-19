@@ -1,0 +1,228 @@
+$color-header-bg: hsl(181, 76%, 23%);
+$color-li-bg: hsl(144, 39%, 69%);
+$color-linha-tit-bg: hsl(126, 53%, 56%);
+$color-content-bg: hsl(144, 39%, 69%);
+$color-content-pg-bg: hsl(150, 77%, 91%);
+$color-body-content-bg: hsl(150, 77%, 91%);
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f4f4f4;
+}
+
+.bodya {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: $color-body-content-bg;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/Grupo_indigenas.jpg);
+    color: white;
+    height: 200px;
+
+    .menu {
+        display: flex;
+            
+    }
+    
+    .verde {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 1540px;
+        height: 200px;
+        background-color: #0c4e26;
+        opacity: 0.85;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+
+        img {
+            width: 100px;
+        }
+    }
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1590px 700px;
+
+    .search-bar input[type="text"] {
+        padding: 10px;
+        border: none;   
+        border-radius: 4px;
+        font-size: 16px;
+    }
+}
+
+.content_pg_inicial {
+    padding: 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    flex-direction: column;
+    align-items: end;
+
+    .content_1 {
+        margin: left;
+        padding: right;
+        height: 180px;
+        width: 800px;
+        background-color: $color-header-bg;
+        text-align: center;
+        border-radius: 30px 0px 0px 30px;
+        margin-left: 50px;
+        padding: 20px;
+
+        h1 {
+            padding-top: 40px;
+            display: right;
+            font-size: 20px;
+            margin: left;
+            color: #fff;
+        }
+    }
+}
+
+h1 {
+    font-family: "Italiana", sans-serif;
+}
+
+li {
+    font-family: "Italiana", sans-serif;
+    font-weight: 530;
+    font-size: 20px;
+}
+
+.Titulo_pg_HI {
+    margin: 50px;
+    padding: right;
+    text-align: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+    height: 0px;
+
+    h1 {
+        font-size: 25px;
+        margin: 0;
+        color: #000000;
+        font-weight: 530;
+    }
+
+    #linha_titulo {
+        width: 300px;
+        height: 5px;
+        background-color: $color-linha-tit-bg;
+        display: flex;
+    }
+}
+
+.all_content {
+    width: 1530px;
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+    img {
+        width: 500px;
+        float: right;
+        display: block;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    .content_HI {
+        padding: right;
+        height: 368px;
+        width: 700px;
+        background-color: $color-content-bg;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: inline-block;
+        padding: 20px;
+        align-items: center;
+
+        p {
+            font-size: 24px;
+            margin-left: 50px;
+            color: black;
+            font-family: "Italiana", sans-serif;
+            font-weight: 530;
+        }
+    }
+}
+
+#logo {
+    padding-left: 1300px;
+    border: 20px;
+}
+
+.rodape {
+    display: flex;
+    padding: 15px 30px;
+    background-color: $color-header-bg;
+    color: white;
+    width: 1476px;
+    justify-content: space-around;
+
+    .rodape_nos {
+        display: flex;
+        justify-content: center;
+
+        li {
+            width: 200px;
+            height: 35px;
+            text-align: center;
+            list-style: none;
+            cursor: pointer;
+            font-size: 22px;
+            font-weight: 780;
+            padding-right: 200px;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+
+button {
+    cursor: pointer;
+    background-color: $color-header-bg;
+    border: none;
+    display: left;
+
+    img {
+        width: 80px;
+    }
+
+    :hover {
+        background-color: hsl(181, 76%, 25%);
+        border-radius: 10px;
+    }
+}
