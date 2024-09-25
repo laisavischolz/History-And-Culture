@@ -5,12 +5,16 @@
   font-style: normal;
 }
 
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  width: 210.1vh;
 }
 
 .navbar {
@@ -22,7 +26,7 @@ body {
   height: 200px;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1590px 700px;
+  background-size: 210.1vh 700px;
 }
 .navbar .menu {
   display: flex;
@@ -81,21 +85,25 @@ li {
   display: flex;
   background-image: url(images/Grupo_indigenas.jpg);
   color: white;
-  width: 1476px;
+  width: 210.1vh;
+  height: 200px;
   justify-content: space-around;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 210.1vh 700px;
 }
 .rodape .verde_rodape {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1476px;
-  height: 100px;
+  width: 210.1vh;
+  height: 200px;
   background-color: #0c4e26;
   opacity: 0.85;
 }
 .rodape .rodape_nos {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .rodape .rodape_nos li {
   width: 200px;
@@ -105,23 +113,8 @@ li {
   cursor: pointer;
   font-size: 22px;
   font-weight: 780;
-  padding-right: 200px;
 }
 .rodape .rodape_nos a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-  background-color: hsl(181, 76%, 23%);
-  border: none;
-  display: left;
-}
-button img {
-  width: 80px;
-}
-button :hover {
-  background-color: hsl(181, 76%, 25%);
-  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
