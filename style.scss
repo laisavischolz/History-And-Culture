@@ -25,6 +25,44 @@ body {
     width: 210.1vh;
 }
 
+.menu {
+    display: flex;
+    background-color: #0c4e26;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center ;
+
+    li {
+        text-wrap: nowrap;
+        width: 200px;
+        height: 35px;
+        text-align: center;
+        list-style: none;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 780;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+
+        img {
+            width: 70px;
+        }
+    }
+
+    .search-bar input[type="text"] {
+        padding: 10px;
+        border: none;   
+        border-radius: 4px;
+        font-size: 16px;
+    }
+}
 
 .navbar {
     display: flex;
@@ -33,25 +71,6 @@ body {
     background-image: url(images/Grupo_indigenas.jpg);
     color: white;
     height: 200px;
-
-    .menu {
-        display: flex;
-
-        li {
-            width: 200px;
-            height: 35px;
-            text-align: center;
-            list-style: none;
-            cursor: pointer;
-            font-size: 22px;
-            font-weight: 780;
-        }
-
-        a {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
-        }
-    }
     
     .verde {
         display: flex;
@@ -62,25 +81,9 @@ body {
         background-color: #0c4e26;
         opacity: 0.85;
     }
-
-    .logo {
-        font-size: 24px;
-        font-weight: bold;
-
-        img {
-            width: 130px;
-        }
-    }
     background-repeat: no-repeat;
     background-position: top;
     background-size: 210.1vh 700px;
-
-    .search-bar input[type="text"] {
-        padding: 10px;
-        border: none;   
-        border-radius: 4px;
-        font-size: 16px;
-    }
 }
 
 h1 {
@@ -122,6 +125,9 @@ li {
         display: flex;
         justify-content: space-between;
 
+        ul {
+            justify-content: space-around;
+        }
         li {
             width: 200px;
             height: 35px;

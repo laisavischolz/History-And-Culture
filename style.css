@@ -17,6 +17,41 @@ body {
   width: 210.1vh;
 }
 
+.menu {
+  display: flex;
+  background-color: #0c4e26;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu li {
+  text-wrap: nowrap;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 780;
+}
+.menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.menu .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.menu .logo img {
+  width: 70px;
+}
+.menu .search-bar input[type=text] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,22 +63,6 @@ body {
   background-position: top;
   background-size: 210.1vh 700px;
 }
-.navbar .menu {
-  display: flex;
-}
-.navbar .menu li {
-  width: 200px;
-  height: 35px;
-  text-align: center;
-  list-style: none;
-  cursor: pointer;
-  font-size: 22px;
-  font-weight: 780;
-}
-.navbar .menu a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
 .navbar .verde {
   display: flex;
   justify-content: space-around;
@@ -52,19 +71,6 @@ body {
   height: 200px;
   background-color: #0c4e26;
   opacity: 0.85;
-}
-.navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-.navbar .logo img {
-  width: 130px;
-}
-.navbar .search-bar input[type=text] {
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
 }
 
 h1 {
@@ -104,6 +110,9 @@ li {
 .rodape .rodape_nos {
   display: flex;
   justify-content: space-between;
+}
+.rodape .rodape_nos ul {
+  justify-content: space-around;
 }
 .rodape .rodape_nos li {
   width: 200px;
