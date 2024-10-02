@@ -6,12 +6,22 @@ $color-content-pg-bg: hsl(150, 77%, 91%);
 $color-body-content-bg: hsl(150, 77%, 91%);
 
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
 
 .italiana-regular {
     font-family: "Italiana", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
 
 * {
     margin: 0;
@@ -52,7 +62,13 @@ body {
         font-weight: bold;
 
         img {
-            width: 70px;
+            width: 55px;
+        }
+    }
+
+    .casa {
+        img {
+            width: 45px;
         }
     }
 
@@ -70,16 +86,22 @@ body {
     align-items: center;
     background-image: url(images/Grupo_indigenas.jpg);
     color: white;
-    height: 200px;
+    height: 180px;
     
     .verde {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 1540px;
-        height: 200px;
+        height: 180px;
         background-color: #0c4e26;
         opacity: 0.85;
+
+        h2 {
+            font-family: "Dancing Script", cursive;
+            font-size: 80px;
+            opacity: 0.8;
+        }
     }
     background-repeat: no-repeat;
     background-position: top;
@@ -105,7 +127,7 @@ li {
     background-image: url(images/Grupo_indigenas.jpg);
     color: white;
     width: 210.1vh;
-    height: 200px;
+    height: 180px;
     justify-content: space-around;
     background-repeat: no-repeat;
     background-position: top;
@@ -116,7 +138,7 @@ li {
         justify-content: space-around;
         align-items: center;
         width: 210.1vh;
-        height: 200px;
+        height: 180px;
         background-color: #0c4e26;
         opacity: 0.85;
     }
