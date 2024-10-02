@@ -7,7 +7,6 @@ $color-body-content-bg: hsl(150, 77%, 91%);
 
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
 
 .italiana-regular {
     font-family: "Italiana", sans-serif;
@@ -118,8 +117,17 @@ li {
     font-size: 20px;
 }
 
-.divisao {
+.contexto {
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
+    h3 {
+        
+    }
 }
 
 .rodape {
